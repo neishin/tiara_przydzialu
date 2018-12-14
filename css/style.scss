@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    text-align: center;
+}
+
+body {
+    margin: 0 auto;
+    width: 1366px;
+}
+
+img {
+    width: 40%;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p, h1, h2 {
+    padding: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.4rem;
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.crest {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 25%;
+    height: 100%;
+    width: auto;
+}
