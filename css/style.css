@@ -1,74 +1,74 @@
-/* line 1, ../../prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
+/* line 1, E:/Szymon.Szweda/PRACE/prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
 
-/* line 7, ../../prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
+/* line 7, E:/Szymon.Szweda/PRACE/prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
 html {
   font-size: 16px;
   text-align: center; }
+  @media screen and (max-width: 640px) {
+    /* line 7, E:/Szymon.Szweda/PRACE/prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
+    html {
+      font-size: 24px; } }
 
-/* line 13, ../../prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
+/* line 16, E:/Szymon.Szweda/PRACE/prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
 body {
   margin: 0 auto;
   width: 1366px; }
   @media screen and (max-width: 640px) {
-    /* line 13, ../../prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
+    /* line 16, E:/Szymon.Szweda/PRACE/prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
     body {
       width: 640px; } }
 
-/* line 21, ../../prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
+/* line 24, E:/Szymon.Szweda/PRACE/prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
 img {
   width: 30%; }
   @media screen and (max-width: 640px) {
-    /* line 21, ../../prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
+    /* line 24, E:/Szymon.Szweda/PRACE/prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
     img {
-      width: 100%; } }
+      width: 80%; } }
 
-/* line 28, ../../prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
+/* line 31, E:/Szymon.Szweda/PRACE/prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
 h1 {
   font-size: 2rem; }
-  @media screen and (max-width: 640px) {
-    /* line 28, ../../prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
-    h1 {
-      font-size: 10rem; } }
 
-/* line 35, ../../prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
+/* line 36, E:/Szymon.Szweda/PRACE/prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
 p, h1, h2 {
   padding: 10px 0; }
 
-/* line 39, ../../prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
+/* line 40, E:/Szymon.Szweda/PRACE/prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
 p {
   margin: 10px 0;
   font-size: 1.4rem; }
 
-/* line 44, ../../prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
+/* line 45, E:/Szymon.Szweda/PRACE/prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
 button {
   font-size: 1rem;
   padding: 10px 20px;
   border-radius: 10px; }
 
-/* line 50, ../../prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
+/* line 51, E:/Szymon.Szweda/PRACE/prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
 .crest {
   z-index: 1;
   margin-top: 100px;
   height: 100%;
   width: auto; }
   @media screen and (max-width: 640px) {
-    /* line 50, ../../prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
+    /* line 51, E:/Szymon.Szweda/PRACE/prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
     .crest {
       margin-top: 300px;
       width: 100%;
       height: auto; } }
 
-/* line 66, ../../prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
+/* line 67, E:/Szymon.Szweda/PRACE/prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
 .flex {
   display: inline-flex;
   justify-content: center;
   flex-direction: column; }
 
-/* line 72, ../../prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
+/* line 73, E:/Szymon.Szweda/PRACE/prywatne/js cwiczenia/tiara_przydzialu/css/style.scss */
 .return {
   margin-top: 30px;
   z-index: 1; }
